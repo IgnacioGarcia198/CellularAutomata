@@ -1,4 +1,4 @@
-# Cellular Automata
+# Cellular Automata Example for Android
 This is an implementation of the cellular automata concept. Here a simple introduction: [link](https://natureofcode.com/book/chapter-7-cellular-automata/)
 
 According to Stephen Wolfram ( [wikipedia](https://en.wikipedia.org/wiki/Stephen_Wolfram) ), some cases like rule 30( [wikipedia](https://en.wikipedia.org/wiki/Rule_30) ) show an
