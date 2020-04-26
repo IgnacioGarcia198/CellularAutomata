@@ -6,4 +6,4 @@ irreducibly complexity and he sustains that simple computer programs like a cell
 
 This implementation treats the cell population in a cyclic way, this is to say, last and first cells are considered to be neighbors. Black squares represent alive cells whereas white ones represent dead cells.
 
-For further details check his book [A New Kind Of Science](https://en.wikipedia.org/wiki/Rule_30). It is free of charge.
+For further details check his book [A New Kind Of Science](https://www.wolframscience.com/nks/). It is free of charge.
