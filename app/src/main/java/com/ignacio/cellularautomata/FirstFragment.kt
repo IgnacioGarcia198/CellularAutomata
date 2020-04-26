@@ -31,6 +31,7 @@ class FirstFragment : Fragment() {
         generationsSeekbar.max = MyViewModel.MAX_GENERATIONS
         ruleSeekbar.max = 255
 
+
         sizeSeekbar.setOnSeekBarChangeListener(
             object : SeekBar.OnSeekBarChangeListener {
                 override fun onProgressChanged(
@@ -94,6 +95,10 @@ class FirstFragment : Fragment() {
                 }
             }
         )
+
+        sizeSeekbar.progress = (MyViewModel.MAX_SIZE + MyViewModel.MIN_SIZE)/2
+        generationsSeekbar.progress = (MyViewModel.MAX_GENERATIONS + MyViewModel.MIN_GENERATIONS)/2
+        ruleSeekbar.progress = 127
 
         startSimulationButton.setOnClickListener {
             viewModel.initializeSimulation()
